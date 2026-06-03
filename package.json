@@ -1,0 +1,10 @@
+{
+  "name": "ws-server",
+  "type": "module",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
