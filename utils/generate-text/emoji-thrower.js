@@ -1,4 +1,4 @@
-const EMOJIS = ["😀", "🔥", "🎉", "💀", "🚀"];
+const EMOJIS = ["😀", "🔥", "🎉", "💀", "🚀","🔆" ,"🐶", "✅", "💵", "🥂", "🐣", "☕️", "🏠", "🍻", "🇯🇵", "😎", "🤘", "😇", "🫵"];
 
 let emojiStream = { current: "" };
 const emojiThrower = (wss) => {
