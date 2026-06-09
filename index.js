@@ -7,7 +7,7 @@ const wss = new WebSocketServer({ port: PORT });
 const emojiStream = emojiThrower(wss);
 
 wss.on("connection", (ws) => {
-  if (emojiStream.current) ws.send(emojiStream.current);
+  if (emojiStream) ws.send(emojiStream);
 });
 
 console.log(`Server running on ws://localhost:${PORT}`);

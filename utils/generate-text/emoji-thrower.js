@@ -1,13 +1,14 @@
-const EMOJIS = ["😀", "🔥", "🎉", "💀", "🚀","🔆" ,"🐶", "✅", "💵", "🥂", "🐣", "☕️", "🏠", "🍻", "🇯🇵", "😎", "🤘", "😇", "🫵"];
+import { EMOJIS } from "../constants";
 
-let emojiStream = { current: "" };
 const emojiThrower = (wss) => {
+  let emojiStream = "🚀";
+
   if (wss) {
     setInterval(() => {
-      emojiStream.current = EMOJIS[Math.floor(Math.random() * EMOJIS.length)];
+      emojiStream = EMOJIS[Math.floor(Math.random() * EMOJIS.length)];
 
       for (const client of wss.clients) {
-        if (client.readyState === 1) client.send(emojiStream.current);
+        if (client.readyState === 1) client.send(emojiStream);
       }
     }, 1000);
   }
