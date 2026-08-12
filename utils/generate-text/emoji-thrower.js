@@ -1,4 +1,4 @@
-import { EMOJIS } from "../constants";
+import { EMOJIS } from "../constants.js";
 
 const emojiThrower = (wss) => {
   let emojiStream = "🚀";
