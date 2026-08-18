@@ -1,3 +1,7 @@
+# Devgamers Websocket 
+
+## 📣 Info
+- 🖥️ [Deployed URL](https://devgamers-websocket.onrender.com)  
 
 ## 🏝️ Configure environment variables  
 1. Create a file named `.env` in `project root`. 
