@@ -1,6 +1,8 @@
 # Devgamers Websocket 
 
 ## 📣 Info
+- This is a school project where we have created a feature showcasing what websockets can do. It's an app that opens up a "stream" from our deployed backend that sends out random emojis to those connecting to it.  Regardless of when, where or how you connect, everyone will see the same emoji in real time.
+
 - 🖥️ [Deployed URL](https://devgamers-websocket.onrender.com)  
 
 ## 🏝️ Configure environment variables  
