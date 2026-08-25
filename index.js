@@ -1,8 +1,6 @@
 import { WebSocketServer } from "ws";
 import emojiThrower from "./utils/generate-text/emoji-thrower.js";
 
-// ❕ Render sets the port, BUT when running locally it uses
-//     local environment variable (see 📄 README file).
 const port = Number(process.env.PORT);
 if (!port) throw new Error("PORT not available");
 
