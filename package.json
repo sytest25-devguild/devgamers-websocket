@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node --env-file=.env index.js",
     "test": "npm run test:websocket",
-    "test:websocket": "playwright test --config=Playwright/playwright.websocket.config.js"
+    "test:websocket": "playwright test --config=playwright.config.js"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0"

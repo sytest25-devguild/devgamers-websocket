@@ -1,9 +1,9 @@
 import { test, expect } from "@playwright/test";
 import { spawn } from "node:child_process";
 import { fileURLToPath } from "node:url";
-import { EMOJIS } from "../../../utils/constants.js";
+import { EMOJIS } from "../../utils/constants.js";
 
-const projectRoot = fileURLToPath(new URL("../../../", import.meta.url));
+const projectRoot = fileURLToPath(new URL("../../", import.meta.url));
 let server;
 
 test.beforeAll(async () => {
